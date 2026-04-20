@@ -1,0 +1,20 @@
+# OS가 자동 생성하는 파일 (PC별로 다르며 동기화 대상 아님)
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# 에디터/IDE의 PC별 개인 설정
+.vscode/
+.idea/
+*.swp
+
+# 오피스 앱이 편집 중 만드는 임시 잠금 파일
+~$*.docx
+~$*.xlsx
+~$*.pptx
+.~lock.*
+
+# Claude/Cowork 임시 산출물 (세션 전용, 공유 불필요)
+.feasibility_test/
+.claude-tmp/
